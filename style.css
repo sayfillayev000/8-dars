@@ -1,0 +1,52 @@
+body{
+    background-color: #56557D;
+    padding-bottom: 50px;
+}
+.continer{
+    width: 500px;
+    height: 600px;
+    margin-top: 500px;
+
+    margin: 0 auto;
+}
+.pic{
+    
+
+    width: 90px;
+    background-color: #3D3E52;
+}
+.flex_item{
+    width: 500px;
+    margin: 0 auto;
+}
+.pic:hover{
+    background-color: #242529;
+    transform: scale(1.2);
+    border-style: none;
+    box-shadow: 0 0 5px 3px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.flex{
+    width: 400px;
+    background-color: #fff;
+
+    margin: 20px auto;
+}
+.img{
+    width: 400px;
+}
+.text{
+
+    text-align: end;
+}
+h2{
+    display: flex;
+    padding: 10px;
+    height: 20px;
+    justify-content: space-between;
+
+}
+span{
+    color: #BABABA;
+}
